@@ -44,8 +44,8 @@ driver.get(url);
 public static void insertValues(WebElement e, String u) {
 e.sendKeys(u);
 }
-public static void insertValue(WebElement e) throws Exception {
-
+public static void insertValue(WebElement e,int a,int b) throws Exception {
+getData(a, b);
 
 }
 public static void Click(WebElement e) {
